@@ -16,4 +16,9 @@
 	* Can safely handle difficult to implement actions such as uniqueness in heavily-used tables
 * Cons
 	* Can make testing and maintenance more difficult
-	* 
+	
+[ActiveRecord Doc](http://guides.rubyonrails.org/active_record_validations.html)
+
+
+## Usage
+
