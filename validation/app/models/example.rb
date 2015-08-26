@@ -1,5 +1,6 @@
 class Example < ActiveRecord::Base
 
-	validates :email, presence: true
+	validates :email, confirmation: true
+	validates :email_confirmation, presence: true
 	
 end
