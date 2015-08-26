@@ -50,4 +50,3 @@ end
 * presence
 * uniqueness
 
-[RubyonRails Doc](http://guides.rubyonrails.org/active_record_validations.html#working-with-validation-errors)
