@@ -2,9 +2,9 @@
 * Checks incoming data against constraints to ensure that it is valid before saving it to the database
 * Simple example
 	* Checking that the input is a valid email address is not nil
-* Two kinds of validations
-	* Database level validation
-	* Model level validation
+* Two kinds of Acrive Record objects when validation happen
+	* Database level 
+	* Model level 
 * 
 
 ## Why use validations?
@@ -49,3 +49,5 @@ end
 * acceptance
 * presence
 * uniqueness
+
+[RubyonRails Doc](http://guides.rubyonrails.org/active_record_validations.html#working-with-validation-errors)
