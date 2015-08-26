@@ -8,7 +8,9 @@ class ExamplesController < ApplicationController
 	end
 
 	def create
-		Example.create(example_input)
+		binding.pry
+
+		@created = Example.create(example_input)
 		redirect_to new_example_path
 	end
 
@@ -16,6 +18,6 @@ class ExamplesController < ApplicationController
 	private
 
 	def example_input
-		params.require(:example).permit(:name,:email)
+		params.require(:example).permit(:name,:email,:email_confirmation)
 	end
 end
