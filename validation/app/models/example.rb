@@ -1,5 +1,6 @@
 class Example < ActiveRecord::Base
 
+<<<<<<< HEAD
 	# validates :email, presence: true
 
 	# validates :email, confirmation: true
@@ -12,3 +13,8 @@ class Example < ActiveRecord::Base
 		validates :name, numericality: true
 
 end
+=======
+	validates :email, presence: true
+	validates :name, length: { minimum: 2 }
+end
+>>>>>>> 7fe172f08144b6eb66e4f706ee56ca1d7bbf7d95

@@ -1,0 +1,21 @@
+html{
+  background-color: #353D48;
+  text-align: center;
+  vertical-align: center;
+  color: white;
+}
+
+div{
+  margin: 8% 20%;
+}
+.submit{
+  border: 3px groove;
+  border-style: hidden;
+  border-radius: 4px;
+  background-color: #3D004C;
+  color: #FFCC66;
+  padding: 10px;
+}
+.submit:hover{
+  background-color: #7A767A;
+}
