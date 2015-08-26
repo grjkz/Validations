@@ -1,3 +1,10 @@
+<%= form_for @example do |f| %>
+<%= text_field :example, :name, placeholder: "Name" %>
+<%= text_field :example, :email, placeholder: "email" %>
+
+<%= f.submit %>
+<% end %>
+
 <h1>Validation</h1><hr>
 <div>
   <%= form_for @example do |f| %>
@@ -7,3 +14,4 @@
     <%= f.submit class:"submit"%>
   <% end %>
 </div>
+

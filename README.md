@@ -20,3 +20,32 @@
 [ActiveRecord Doc](http://guides.rubyonrails.org/active_record_validations.html)
 
 ## Usage
+
+
+* Model
+```
+class Example < ActiveRecord::Base
+	validates :name, presence: true
+	validates :email, presence: true
+end
+```
+
+* Form
+```
+<%= form_for @example do |f| %>
+<%= text_field :example, :name, placeholder: "Name" %>
+<%= text_field :example, :email, placeholder: "email" %>
+<%= f.submit %>
+<% end %>
+```
+
+## Other Validation Methods
+* numericality
+* length
+* format
+* inclusion
+* exclusion
+* confirmation
+* acceptance
+* presence
+
