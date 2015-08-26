@@ -1,8 +1,9 @@
+<h1>Validation</h1><hr>
 <div>
   <%= form_for @example do |f| %>
-    <%= f.text_field :name, placeholder: "Name" %>
-    <%= f.text_field :email, placeholder: "email" %>
-    <%= text_field :person, :email_confirmation, placeholder: "confirm email" %>
+    <p><%= f.text_field :name, placeholder: "Name" %></p>
+    <p><%= f.text_field :email, placeholder: "email" %></p>
+    <p><%= text_field :person, :email_confirmation, placeholder: "confirm email" %></p>
     <%= f.submit class:"submit"%>
   <% end %>
-<div>
+</div>
