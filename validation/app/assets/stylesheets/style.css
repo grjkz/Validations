@@ -1,0 +1,11 @@
+div{
+  margin: 15%;
+  background-color: #353D48;
+}
+
+.submit{
+  border: 3px groove hidden;
+  border-radius: 4px;
+  background-color: #3D004C;
+  color: #FFCC66;
+}
