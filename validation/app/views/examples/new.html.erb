@@ -1,0 +1,8 @@
+<div>
+  <%= form_for @example do |f| %>
+    <%= f.text_field :name, placeholder: "Name" %>
+    <%= f.text_field :email, placeholder: "email" %>
+    <%= text_field :person, :email_confirmation, placeholder: "confirm email" %>
+    <%= f.submit class:"submit"%>
+  <% end %>
+<div>
