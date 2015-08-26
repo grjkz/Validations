@@ -38,3 +38,13 @@ end
 <%= f.submit %>
 <% end %>
 ```
+
+## Other Validation Methods
+* numericality
+* length
+* format
+* inclusion
+* exclusion
+* confirmation
+* acceptance
+* presence
